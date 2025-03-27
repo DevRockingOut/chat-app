@@ -1,0 +1,32 @@
+.private-chat-profile-icon {
+    scale: 0.9;
+}
+
+#privateChatProfileInfos {
+    text-align: left;
+}
+
+#privateChatProfileInfos>#title {
+    font-weight: 600;
+}
+
+#privateChatProfileInfos>#lastActive {
+    font-size: 13px;
+    display: block;
+    color: #4a4a4a;
+}
+
+#SendContainer {
+    width: 96%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#sendIcon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
